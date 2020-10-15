@@ -1,11 +1,53 @@
+.body-background {
+  background-image: url("https://scx2.b-cdn.net/gfx/news/hires/2019/4-space.jpg");
+  width: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+.jumbo {
+  margin-top: 30px;
+}
+
+.vac-dest-title {
+  text-align: center;
+  font-size: 50px;
+  margin: 25px;
+}
+
+.wise {
+  text-align: left;
+}
+
+.signiture {
+  text-align: right;
+}
+
 .mars {
-  border: 3px solid red;
+  background-color: red
 }
 
 .jupiter {
-  border: 3px solid orange
+  background-color: orange
 }
 
 .pluto {
-  boder: 3px solid gray;
+  background-color: gray;
+}
+
+.planet-head {
+  text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.car-container {
+    margin: 3rem auto 3rem auto;
+    max-width : 70%;
 }
